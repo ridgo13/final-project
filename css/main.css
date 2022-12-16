@@ -1,0 +1,858 @@
+body {
+    margin: 0;
+}
+
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    font-family: 'open sans', sans-serif;
+}
+
+.world-class h2 {
+    font-weight: 600;
+    font-size: 2rem;
+
+}
+
+.world-class p  {
+    color: grey;
+    font-weight: 400;
+    font-size: 1rem;
+
+}
+
+.world-class h5 {
+    color: grey;
+    font-size: 1rem;
+}
+
+.world-class .bi {
+    color: pink;
+}
+
+.world-class .creative {
+    color: rgba(0, 0, 0, 0.813);
+    margin-left: 8px;
+}
+
+.world-class .view-more {
+    padding: 10px 20px;
+    background-color: crimson;
+    text-decoration: none;
+    border-radius: 6px;
+    color: #fff;
+}
+.boxes1 {
+    margin-top: -100px;
+}
+
+.customer-services {
+    background-color: blue;
+    color: #fff;
+    display: block;
+    width: 220px;
+    height: 210px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 18px;
+}
+
+.customer-services .bi {
+    font-size: 2rem;
+}
+
+.service-to-sales {
+    background-color: rgb(13, 200, 200);
+    color: #fff;
+    text-align: center;
+    width: 220px;
+    height: 210px;
+    border-radius: 5px;
+    display: block;
+    margin-top: 20px;
+}
+
+.service-to-sales .bi {
+    font-size: 2rem;
+}
+
+.boxes2 {
+    display: flex;
+    margin-left: -120px;
+}
+
+.predictive {
+    background-color: crimson;
+    width: 220px;
+    height: 210px;
+    border-radius: 6px;
+    color: #fff;
+    text-align: center;
+}
+
+.predictive .bi {
+    font-size: 2rem;
+}
+
+.simple {
+    background-color: blue;
+    width: 220px;
+    margin-top: 15px;
+    height: 210px;
+    border-radius: 6px;
+    color: #fff;
+    text-align: center;
+}
+
+.simple .bi {
+    font-size: 2rem;
+}
+
+.work {
+    background-color: #f5f5f5;
+    height: 500px;
+}
+
+.how {
+    text-align: center;
+    font-family: 'open sans', sans-serif;
+    margin-top: 150px;
+}
+
+.how h2 {
+    font-size: 2.3rem;
+    font-weight: 800;
+    padding-top: 100px;
+}
+
+.how p {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.blu {
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    margin-left: 100px;
+}
+
+.blu .bi {
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.three {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.generate {
+    text-align: center;
+}
+
+.generate h4 {
+    font-family: 'open sans', sans-serif;
+    color: black;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.generate p {
+    font-family: sans-serif;
+    margin-top: 0;
+}
+
+.create {
+    text-align: center;
+}
+
+.crimson {
+    background-color: crimson;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    margin-left: 110px;
+}
+
+.crimson .bi {
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.create h4 {
+    font-family: 'open sans', sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.create p {
+    margin-top: 0;
+    font-family: sans-serif;
+}
+
+.royal {
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    margin-left: 110px;
+}
+
+.royal .bi {
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.launch {
+    text-align: center;
+}
+
+.launch h4 {
+    font-family: 'open sans', sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.launch p {
+    font-family: sans-serif;
+    margin-top: 0;
+}
+
+.managing-business {
+    background: linear-gradient(90deg,rgba(0, 0, 255, 0.714), rgba(190, 3, 140, 0.749)), url(../images/kidd.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+.app-managing {
+    text-align: center;
+    color: #fff;
+    padding: 80px;
+}
+
+.app-managing h3 {
+    font-size: 1.8rem;
+    font-family: sans-serif;
+    margin-top: 0;
+}
+
+.app-managing p {
+    font-family: 'open sans', sans-serif;
+    font-weight: 800;
+}
+
+.app-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-top: -30px;
+}
+
+.app-links .appStore {
+    text-decoration: none;
+    color: #fff;
+    padding: 7px 20px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+}
+
+.app-links .googlePlay {
+    text-decoration: none;
+    color: #fff;
+    padding: 7px 20px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    margin-left: 10px;
+}
+
+.app-links .windows {
+    text-decoration: none;
+    color: #fff;
+    padding: 7px 20px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    margin-left: 10px;
+
+}
+
+.provide h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    padding-top: 100px;
+}
+
+.provide p {
+    text-align: center;
+    font-family: 'open sans', sans-serif;
+    margin-top: 0;
+    font-weight: 400;
+}
+
+.quality {
+    background-color: #f5f5f5;
+    height: 950px;
+}
+
+.quality-box1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 150px;
+}
+
+.marketing {
+    background-color: #ffff;
+    display: inline-block;
+    border-radius: 6px;
+    font-family: sans-serif;
+    height: 190px;
+    width: 450px;
+    padding: 0px 50px;
+    margin-bottom: 20px;
+}
+
+.marketing h4 .bi {
+    font-size: 1.7rem;
+    color: crimson;
+    margin-left: -30px;
+}
+
+.marketing h4 {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.marketing p {
+    margin-top: 0;
+}
+
+.marketing a {
+    text-decoration: none;
+    color: grey;
+}
+
+.development {
+    background-color: #fff;
+    width: 450px;
+    border-radius: 6px;
+    font-family: sans-serif;
+    height: 190px;
+    padding: 0px 50px;
+    margin-bottom: 20px;
+}
+
+.development h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.development p {
+    margin-top: 0;
+}
+
+.development h4 .bi {
+    font-size: 2rem;
+    color: crimson;
+    margin-left: -35px;
+}
+
+.development a {
+    text-decoration: none;
+    color: grey;
+}
+
+.quality-box2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 150px;
+}
+
+.call {
+    background-color: #ffff;
+    width: 450px;
+    border-radius: 6px;
+    font-family: sans-serif;
+    padding: 0px 50px;
+    margin-bottom: 20px;
+    height: 190px;
+
+}
+
+.call h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.call p {
+    margin-top: 0;
+}
+
+.call h4 .bi {
+    color: crimson;
+    font-size: 2rem;
+    margin-left: -35px;
+}
+
+.call a {
+    text-decoration: none;
+    color: grey;
+}
+
+.media {
+    background-color: #ffff;
+    width: 450px;
+    border-radius: 6px;
+    font-family: sans-serif;
+    padding: 0px 60px;
+    margin-bottom: 20px;
+    height: 190px;
+}
+
+.media h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.media p {
+    margin-top: 0;
+}
+
+.media h4 .bi {
+    color: crimson;
+    font-size: 2rem;
+    margin-left: -35px;
+}
+
+.media a {
+    text-decoration: none;
+    color: grey;
+}
+
+.quality-box3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 150px;
+}
+
+.corporate {
+    background-color: #fff;
+    height: 190px;
+    width: 450px;
+    padding: 0 60px;
+    border-radius: 6px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.corporate h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.corporate h4 .bi {
+    color: crimson;
+    font-size: 2rem;
+    margin-left: -37px;
+}
+
+.corporate p {
+    margin-top: 0;
+}
+
+.corporate a {
+    text-decoration: none;
+    color: grey;
+}
+
+.consultancy {
+    background-color: #fff;
+    height: 190px;
+    width: 450px;
+    padding: 0 60px;
+    border-radius: 6px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.consultancy h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.consultancy h4 .bi {
+    color: crimson;
+    margin-left: -37px;
+    font-size: 2rem;
+}
+
+.consultancy p {
+    margin-top: 0;
+}
+
+.consultancy a {
+    text-decoration: none;
+    color: grey;
+}
+
+.about {
+    background-color: #1a2b79;
+    height: 650px;
+}
+
+.about h3 {
+    margin-top: 0;
+    padding-top: 100px;
+    font-size: 1.6rem;
+}
+
+.say {
+    text-align: center;
+    color: #ffff;
+    font-family: 'open sans', sans-serif;
+}
+
+.karol {
+    height: 300px;
+    width: 450px;
+    background-color: #fff;
+    padding: 70px;
+    padding-top: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.karol .bi-quote {
+    font-size: 3.5rem;
+    color: grey;
+}
+
+.karol p {
+    color: grey;
+    font-family: 'open sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin: 0;
+}
+
+.kyan img {
+    border-radius: 30px;
+    height: 50px;
+    width: 50px;
+}
+
+.karol img {
+    border-radius: 30px;
+    height: 50px;
+    width: 50px;
+}
+
+.kyan {
+    height: 300px;
+    width: 450px;
+    background-color: #fff;
+    padding: 70px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 150px;
+    padding-top: 30px;
+}
+
+.kyan .bi-quote {
+    color: grey;
+    font-size: 3.5rem;
+}
+
+.kyan p {
+    color: grey;
+    font-family: 'open sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin: 0;
+}
+
+.kyan img {
+    border-radius: 30px;
+    height: 50px;
+    width: 50px;
+}
+
+.kyan-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+}
+
+.kyan-profile h5 {
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    margin-left: -120px;
+}
+
+.kyan-profile .star {
+    display: flex;
+    color: orange;
+    margin-right: 50px;
+}
+
+.latest-news {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.latest-news h3 {
+    font-size: 2rem;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.latest-news p {
+    margin-top: 0;
+}
+
+.zino {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.rid {
+    margin-left: 100px;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    height: 450px;
+    border-radius: 6px;
+}
+
+.rid img {
+    border-radius: 6px;
+    height: 200px;
+    width: 300px;
+}
+
+.promote {
+    display: flex;
+    padding: 15px;
+    padding-bottom: 0;
+}
+
+.promote img {
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+}
+
+.rid h3 {
+    font-family: sans-serif;
+    color: blue;
+    padding: 15px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.rid p {
+    font-family: sans-serif;
+    color: grey;
+    font-weight: 400;
+    padding: 10px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.rid a {
+    text-decoration: none;
+    color: blue;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+.promote h5 {
+    margin-left: 15px;
+    color: blue;
+    font-family: sans-serif;
+}
+
+.promote h6 {
+    margin-left: 70px;
+    font-family: sans-serif;
+    color: grey;
+}
+
+.unleash {
+    box-shadow: 1px 1px 1px 1px #ccc;
+    height: 450px;
+    border-radius: 6px;
+}
+
+.unleash img {
+    border-radius: 6px;
+    height: 200px;
+    width: 300px;
+
+}
+
+.unleash h3 {
+    color: blue;
+    margin: 0;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.unleash p {
+    color: grey;
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.unleash a {
+    text-decoration: none;
+    color: blue;
+    font-family: sans-serif;
+    padding: 16px;
+}
+
+.writer {
+    display: flex;
+    padding: 15px;
+    padding-bottom: 0;
+}
+
+.writer img {
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+}
+
+.writer h6 {
+    margin-left: 70px;
+    font-family: sans-serif;
+    color: grey;
+}
+
+.writer h5 {
+    margin-left: 15px;
+    font-family: sans-serif;
+    color: blue;
+}
+
+.unleashed {
+    margin-right: 100px;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    height: 450px;
+    border-radius: 6px;
+
+}
+
+.unleashed img {
+    border-radius: 6px;
+    height: 200px;
+    width: 300px;
+}
+
+.unleashed {
+    color: blue;
+    font-family: sans-serif;
+}
+
+.unleashed p {
+    color: grey;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.unleashed a {
+    text-decoration: none;
+    color: blue;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+.writerr {
+    display: flex;
+    padding: 15px;
+    padding-bottom: 0;
+}
+
+.writerr img {
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+}
+
+.unleashed h3 {
+    margin: 0;
+    padding: 10px;
+}
+
+.writerr h6 {
+    margin-left: 70px;
+    font-family: sans-serif;
+    color: grey;
+}
+
+.writerr h5 {
+    margin-left: 15px;
+    font-family: sans-serif;
+}
+
+.join {
+    background-color: #ccc;
+    height: 300px;
+}
+
+.sub {
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 100px;
+    padding: 50px;
+}
+
+.sub h3 {
+    font-size: 1.5rem;
+}
+
+.email-form {
+    text-align: center;
+    margin-top: -50px;
+}
+
+.email-form button {
+    padding: 13px 20px;
+    background-color: crimson;
+    color: #ffff;
+    border: 0;
+    border-radius: 5px;
+}
+
+.form-control {
+    padding: 10px 60px;
+    max-width: 100%;
+}
